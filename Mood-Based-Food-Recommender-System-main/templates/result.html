@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recommendations</title>
+</head>
+<body>
+    <h1>Food Recommendations for Mood: {{ mood }}</h1>
+    <p>{{ result }}</p>
+    <h2>Recommended Restaurants</h2>
+    <ul>
+        {% for restaurant in restaurants %}
+            <li>{{ restaurant['Restaurant Name'] }} - {{ restaurant['Cuisines'] }} (Rating: {{ restaurant['Aggregate rating'] }})</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

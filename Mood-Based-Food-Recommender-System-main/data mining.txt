@@ -1,0 +1,2 @@
+a Mood-Based Food Recommender System that suggests restaurants based on the user's current mood, utilizing data on cuisines, ratings, and costs.
+
